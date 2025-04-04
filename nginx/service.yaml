@@ -10,4 +10,4 @@ spec:
     - protocol: TCP
       port: 8081       # Service Port
       targetPort: 8081 # Container Port
-      nodePort: 0      # Let Kubernetes choose an available port
+      nodePort: 32170      # Let Kubernetes choose an available port
